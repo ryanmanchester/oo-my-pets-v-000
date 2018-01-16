@@ -55,7 +55,11 @@ def feed_fish
 end
 
 def sell_pets
- binding.pry
+ #binding.pry
+ pets.each_value do |pet|
+   pet.each {|p| p.mood = "nervous"}
+ end
+ pets.clear
 end
 
 
