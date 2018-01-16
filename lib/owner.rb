@@ -1,3 +1,13 @@
+require 'pry'
 class Owner
-  # code goes here
+attr_accessor :pets, :name
+@@all = []
+
+def initialize(name)
+  binding.pry
+  @name =  name
+  @pets = {fishes: [],cats: [], dogs: []}
+  @@all << self
+ end
+
 end
