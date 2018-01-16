@@ -7,7 +7,7 @@ def initialize(name)
   binding.pry
   @name =  name
   @pets = {fishes: [],cats: [], dogs: []}
-  @@all << self
+  
  end
 
  def self.all
