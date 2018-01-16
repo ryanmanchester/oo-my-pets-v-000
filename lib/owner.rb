@@ -64,7 +64,7 @@ end
 
 def list_pets
   #binding.pry
-  pets.each {|k, v| puts "I have #{v.count} #{k}."}
+  pets.each {|k, v|  "I have #{v.count} #{k}."}
 
 end
 
