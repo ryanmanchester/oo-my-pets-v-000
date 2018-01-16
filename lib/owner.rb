@@ -17,11 +17,11 @@ def initialize(name)
 
  def self.reset_all
    #binding.pry
-   @@all = []
+   self.all.clear
  end
 
  def self.count
-   @@all.count
+   self.all.count
  end
 
 end
