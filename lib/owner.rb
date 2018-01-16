@@ -16,7 +16,7 @@ def initialize(name)
  end
 
  def self.reset_all
-   binding.pry
+   #binding.pry
    self.all.clear
  end
 
