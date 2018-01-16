@@ -11,6 +11,7 @@ def initialize(name)
  end
 
  def self.all
+   binding.pry
    @@all
  end
 
