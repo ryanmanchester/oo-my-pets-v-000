@@ -15,10 +15,10 @@ def initialize(name)
    @@all
  end
 
- def self.reset_all
-   #binding.pry
-   self.all.clear
- end
+ # def self.reset_all
+ #   #binding.pry
+ #   self.all.clear
+ # end
 
  def self.count
    self.all.count
