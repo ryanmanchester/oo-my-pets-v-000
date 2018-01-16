@@ -16,6 +16,7 @@ def initialize(name)
  end
 
  def self.reset_all
+   binding.pry
    self.all.count
  end
 
