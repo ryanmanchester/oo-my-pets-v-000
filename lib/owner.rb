@@ -42,7 +42,7 @@ def initialize(name)
  end
 
 def walk_dogs
-  #binding.pry
+  binding.pry
   pets[:dogs].each {|dog| dog.mood = "happy"}
 end
 
