@@ -25,6 +25,10 @@ def initialize(name)
    self.all.count
  end
 
+ def say_species
+   puts "I am a #{@species}."
+ end
+
 
 
 end
