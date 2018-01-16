@@ -20,4 +20,8 @@ def initialize(name)
    @@all = []
  end
 
+ def self.count
+   @@all.count
+ end
+
 end
