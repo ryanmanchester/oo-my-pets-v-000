@@ -15,4 +15,8 @@ def initialize(name)
    @@all
  end
 
+ def reset_all
+   self.all.size
+ end
+
 end
