@@ -63,7 +63,8 @@ def sell_pets
 end
 
 def list_pets
-  binding.pry
+  #binding.pry
+  pets.each {|k, v| puts "I have #{v.count} #{k}."}
 
 end
 
