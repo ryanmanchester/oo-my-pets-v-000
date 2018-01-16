@@ -62,6 +62,11 @@ def sell_pets
  pets.clear
 end
 
+def list_pets
+  binding.pry
+
+end
+
 
 
 end
