@@ -29,6 +29,10 @@ def initialize(name)
     "I am a #{@species}."
  end
 
+ def buy_fish(name)
+   pets[:fishes] << Fish.new
+ end
+
 
 
 end
