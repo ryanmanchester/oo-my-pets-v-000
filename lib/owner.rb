@@ -4,7 +4,7 @@ attr_accessor :pets, :name
 @@all = []
 
 def initialize(name)
-  binding.pry
+  #binding.pry
   @name =  name
   @pets = {fishes: [],cats: [], dogs: []}
   
